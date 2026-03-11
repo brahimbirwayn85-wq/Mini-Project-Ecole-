@@ -1,0 +1,20 @@
+body {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+}
+.info{
+    flex: content;
+}
+a{
+    text-decoration: none;
+}
+.sing{
+    border: 0px solid;
+    width: 480px; 
+    height: 785px;
+    justify-self: center;
+    display: block;
+}
+.dic{
+    display: block;
+}
