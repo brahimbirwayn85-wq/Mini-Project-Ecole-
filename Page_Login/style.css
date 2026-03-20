@@ -2,6 +2,7 @@ body {
     font-family: "Manrope", sans-serif;
     font-optical-sizing: auto;
     justify-content: center;
+    background-color: rgb(236, 236, 236);
 }
 .info{
     flex: content;
@@ -59,14 +60,6 @@ footer {
     justify-content: center;
     justify-items: stretch;
     align-items: start;
-}
-.con {
-    border: 0.01px solid lightgray;
-    padding: 5px;
-    width: 25%;
-    justify-items: center;
-    align-items: first baseline;
-    display:flow-root;
 }
 .cons {
     color: rgba(0, 0, 0, 0.674);
