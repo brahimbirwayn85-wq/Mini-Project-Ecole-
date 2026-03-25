@@ -1,0 +1,71 @@
+ingUp/index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlas Drive Sign In</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javaS.js" defer></script>
+</head>
+<body>
+    <div class="fads">
+        <div class="sing">
+            <div class="head">
+                <img src="../Source/Container.png" alt="Atlas Drive logo" class="icon">
+            </div>
+            <h1 class="hed">Welcome back</h1>
+            <p class="subtext">Sign in to continue your premium Atlas Drive experience.</p>
+
+            <form action="#" method="post" class="info">
+                <div class="dic">
+                    <label for="mail" class="labe">Email Address</label>
+                    <input type="email" name="mail" id="mail" placeholder="name@company.com" class="inp" autocomplete="email" required>
+                </div>
+
+                <div class="dic">
+                    <label for="password" class="labe">Password</label>
+                    <div class="password-box">
+                        <input type="password" name="password" id="password" placeholder="Enter your password" class="inp" autocomplete="current-password" required>
+                        <button type="button" id="togglePassword" class="toggle-password" aria-label="Show password" aria-pressed="false">
+                            <span aria-hidden="true" class="toggle-password__icon">
+                                <svg viewBox="0 0 24 24" focusable="false">
+                                    <path d="M1.5 12s3.75-6.75 10.5-6.75S22.5 12 22.5 12s-3.75 6.75-10.5 6.75S1.5 12 1.5 12Z"></path>
+                                    <circle cx="12" cy="12" r="3.25"></circle>
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="row-meta">
+                    <label for="remember" class="remember">
+                        <input type="checkbox" name="remember" id="remember">
+                        <span>Remember me</span>
+                    </label>
+                    <a href="#" class="forgot">Forgot password?</a>
+                </div>
+
+                <button class="button" type="submit">Sign In</button>
+            </form>
+
+            <div class="divider" aria-hidden="true">
+                <span>or sign in with</span>
+            </div>
+
+            <div class="socials">
+                <a href="https://www.google.com/" class="con cons">
+                    <img src="../Source/Google.PNG" alt="" aria-hidden="true"> Google
+                </a>
+                <a href="https://web.facebook.com/" class="con cons">
+                    <img src="../Source/facebook.png" alt="" aria-hidden="true"> Facebook
+                </a>
+            </div>
+
+            <p class="kaka">Don't have an account? <a href="../Page_Login/index.html">Sign up</a></p>
+        </div>
+    </div>
+
+    <footer>&copy; 2024 Atlas Drive Inc. All rights reserved.</footer>
+</body>
+</html>
