@@ -48,6 +48,7 @@ body {
 .hed {
     margin: 0;
     text-align: center;
+    margin-bottom: 6px;
 }
 
 .subtext {
@@ -165,10 +166,8 @@ a:hover {
     text-decoration: underline;
 }
 
-.button,
-.con {
+.button {
     width: 100%;
-    border: 1px solid rgba(226, 232, 240, 1);
     border-radius: 12px;
     padding: 12px;
     font: inherit;
@@ -176,23 +175,18 @@ a:hover {
 
 .button {
     margin-top: 8px;
+    border: 1px solid rgba(226, 232, 240, 1);
     font-weight: 700;
     color: white;
     background-color: rgb(56, 56, 210);
     cursor: pointer;
     transition: background-color 0.2s ease, transform 0.2s ease;
+    margin-bottom: 8px;
 }
 
 .button:hover {
     background-color: rgb(70, 70, 235);
     transform: translateY(-1px);
-}
-
-.socials {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    margin-top: 18px;
 }
 
 .divider {
@@ -203,6 +197,7 @@ a:hover {
     color: rgb(148, 163, 184);
     font-size: 14px;
     text-align: center;
+    margin-bottom: 6px;
 }
 
 .divider::before,
@@ -211,25 +206,6 @@ a:hover {
     flex: 1;
     height: 1px;
     background-color: rgb(203, 213, 225);
-}
-
-.con {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    background-color: white;
-    color: rgba(51, 65, 85, 1);
-}
-
-.con img {
-    width: 20px;
-    height: 20px;
-}
-
-.cons:hover {
-    text-decoration: none;
-    background-color: rgb(248, 250, 252);
 }
 
 .kaka {
@@ -252,8 +228,7 @@ footer {
         padding: 20px 16px;
     }
 
-    .row-meta,
-    .socials {
+    .row-meta {
         flex-direction: column;
         align-items: stretch;
     }
