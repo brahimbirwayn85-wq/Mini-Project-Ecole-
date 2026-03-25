@@ -16,7 +16,7 @@ body {
     color: rgb(51, 65, 85);
 }
 
-.fad {
+.fads {
     width: min(100%, 480px);
     border: 1px solid rgb(236, 232, 240);
     background-color: rgb(255, 255, 255);
@@ -78,6 +78,60 @@ body {
     border: 1px solid rgb(203, 213, 225);
     border-radius: 8px;
     font: inherit;
+}
+
+.password-box {
+    position: relative;
+}
+
+.password-box .inp {
+    padding-right: 56px;
+}
+
+.toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    transform: translateY(-50%);
+    border: none;
+    background: transparent;
+    color: rgb(17, 82, 212);
+    padding: 0;
+    width: 28px;
+    height: 28px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font: inherit;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.toggle-password__icon {
+    width: 18px;
+    height: 18px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toggle-password__icon svg {
+    width: 18px;
+    height: 18px;
+    stroke: currentColor;
+    stroke-width: 1.8;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.toggle-password:hover {
+    opacity: 0.8;
+}
+
+.toggle-password:focus-visible {
+    outline: 2px solid rgba(56, 56, 210, 0.2);
+    border-radius: 999px;
 }
 
 .inp:focus {

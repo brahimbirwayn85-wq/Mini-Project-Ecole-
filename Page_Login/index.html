@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atlas Drivej Sign Up</title>
+    <title>Atlas Drive Sign Up</title>
     <link rel="stylesheet" href="style.css">
+    <script src="javaS.js?v=2" defer></script>
 </head>
 <body>
-    <div class="fad">
+    <div class="fads">
 
         <div class="sing">
             <div class="head">
@@ -15,22 +16,32 @@
             </div>
             <h1 class="hed">Create your account</h1>
             <p class="subtext">Join Atlas Drive for a premium car rental experience.</p>
-            <form action="/" class="info">
+            <form action="#" method="post" class="info">
                 <div class="dic">
     
                     <label for="name" class="labe">Full Name</label>
-                    <input type="text" name="name" id="name" placeholder="Your full name" class="inp" required>
+                    <input type="text" name="name" id="name" placeholder="Your full name" class="inp" autocomplete="name" required>
                 </div>
                 <div class="dic">
     
                     <label for="mail" class="labe">Email Address</label>
-                    <input type="email" name="mail" id="mail" placeholder="name@company.com" class="inp" required>
+                    <input type="email" name="mail" id="mail" placeholder="name@company.com" class="inp" autocomplete="email" required>
                 </div>
                 <div class="dic">
     
     
                     <label for="password" class="labe">Password</label>
-                    <input type="password" name="password" id="password" placeholder="Enter your password" class="inp" required>
+                    <div class="password-box">
+                        <input type="password" name="password" id="password" placeholder="Enter your password" class="inp" autocomplete="new-password" required>
+                        <button type="button" id="togglePassword" class="toggle-password" aria-label="Show password" aria-pressed="false">
+                            <span aria-hidden="true" class="toggle-password__icon">
+                                <svg viewBox="0 0 24 24" focusable="false">
+                                    <path d="M1.5 12s3.75-6.75 10.5-6.75S22.5 12 22.5 12s-3.75 6.75-10.5 6.75S1.5 12 1.5 12Z"></path>
+                                    <circle cx="12" cy="12" r="3.25"></circle>
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
                 </div>
                 <div class="dic fle">
                     <input type="checkbox" name="agree" id="agree">
